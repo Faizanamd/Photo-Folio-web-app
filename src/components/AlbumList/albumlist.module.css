@@ -1,0 +1,98 @@
+
+
+.albumContainer{
+    /* margin-top: px; */
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.albumContainer h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.topPage{
+    /* background-color: red; */
+    margin-top: 16px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 8px;
+}
+.topPage button{
+    font-size: 1rem;
+    padding: 6px 12px;
+    border: 2px solid steelblue;
+    border-radius: 8px;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.albums{
+    /* margin-top: 5vh; */
+    width: 75%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px 16px;
+    flex-wrap: wrap;
+    margin-bottom: 8vh;
+}
+
+.list {
+    width: 210px;
+    height: 160px;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+
+.boxContent {
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list:hover .boxContent {
+    background-color:#3498db;
+}
+
+.folderImageBox {
+    border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+    margin-top: 4px;
+    width: 97%;
+    height: 80%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list:hover .folderImageBox {
+    background-color: white;
+}
+
+.folderImageBox img {
+    width: 80px;
+    height: 80px;
+}
+
+.list h2 {
+    margin: 0;
+    color: black;
+    transition: color 0.3s;
+}
+
+.list:hover h2 {
+    color: white;
+}
