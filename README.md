@@ -29,5 +29,41 @@ Welcome to the Photo Album Management App! This React-based web application allo
 - cd photo-album-app
 ## Usage
 - Start the application
+    ```
     npm start
+    ```
+- Open the browser and visit
+
+    ```
+    http://localhost:3000.
+    ```
+
+- Explore the Photo Album Management App!
+
+## Technologies
+- React: JavaScript library for building user interfaces.
+- Firebase: Cloud-based platform for scalable and efficient data storage.
+- React Toastify: For displaying toast notifications
+
+## Firebase Configuration
+- Make sure to set up your Firebase credentials for database connectivity. Create a firebaseInit.js file in the project root with the following content
+    ```
+    import firebase from 'firebase/app';
+    import 'firebase/firestore';
+
+    const firebaseConfig = {
+    apiKey: 'YOUR_API_KEY',
+    authDomain: 'YOUR_AUTH_DOMAIN',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    appId: 'YOUR_APP_ID',
+    };
+
+    const db = firebase.initializeApp(firebaseConfig).firestore();
+
+    export default db;
+
+    ```
+- Replace the placeholder values with your actual Firebase project credentials.
     
