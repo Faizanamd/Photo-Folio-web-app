@@ -1,6 +1,6 @@
 # Photo Album Management App
 
-Welcome to the Photo Album Management App! This React-based web application allows users to manage and view photo albums seamlessly. The app provides a user-friendly interface with features to navigate through albums and display images.
+Welcome to the Photo Album Management App! This React-based web application allows users to manage and view photo albums seamlessly. The app provides a user-friendly interface with features to navigate through albums and display images. [Live](https://fzn-photo-folio.onrender.com/)
 
 ## Table of Contents
 - [Features](#features)
